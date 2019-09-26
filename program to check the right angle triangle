@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float a,b,c,d,e,f;
+    printf("Enter the three sides of the triangle:\n");
+    scanf("%f%f%f",&a,&b,&c);
+    d=sqrt(b*b+c*c);
+    e=sqrt(a*a+c*c);
+    f=sqrt(a*a+b*b);
+    if(d==a)
+    {
+        printf("It is a right angle triangle ");
+    }
+    else if (e==b)
+    {
+        printf("It is a right angle triangle ");
+    }
+    else if (f==c)
+    {
+        printf("It is a right angle triangle ");
+    }
+    else
+    {
+        printf("It is not a right angle triangle ");
+    }
+    return 0;
+
+}
+
